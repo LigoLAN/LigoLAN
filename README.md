@@ -25,10 +25,10 @@ Install, run, and play. LigoLAN handles the rest.
 
 ## 💻 Technology Under the Hood
 LigoLAN is written entirely in Python with a focus on asynchronous network communication and stability:
-*   **GUI:** `customtkinter` (modern and responsive interface), `tkinterdnd2` (Drag & Drop support).
-*   **Networking:** Native `socket` library (TCP for files, UDP for radar and chat).
-*   **Audio:** `PyAudio` for low-latency voice transmission over LAN.
-*   **Compilation:** The source code is compiled via **Nuitka** for maximum speed and packaged into a professional installer using Inno Setup.
+* **GUI:** `customtkinter` (modern UI), `tkinterdnd2` (Drag & Drop).
+* **Networking:** Native `socket` library (TCP for files, UDP for radar and chat).
+* **Audio:** `PyAudio` for low-latency voice transmission.
+* **Compilation:** Compiled via **Nuitka** for maximum speed, packaged using Inno Setup.
 
 ## 🤝 Support the Author
 If this tool saved your LAN party or your sanity, I'd highly appreciate any support for further development! 🍻
@@ -44,4 +44,9 @@ If this tool saved your LAN party or your sanity, I'd highly appreciate any supp
 * 📸 [Instagram (@3d_craft88cz)](https://instagram.com/3d_craft88cz)
 
 ---
-*This software is provided free of charge "as is", without any warranties. The author is not liable for any damages or data loss resulting from its use.*
+*This software is provided free of charge "as is", without any warranties. The author is not liable for any damages or data loss resulting from its use. MIT licence*
+
+### 👨‍💻 For Developers (How to compile)
+If you want to compile the project from source yourself, make sure you have all required assets in the same folder and run this exact Nuitka command:
+```cmd
+python -m nuitka --standalone --windows-console-mode=disable --plugin-enable=tk-inter --windows-icon-from-ico=ikona.ico --include-data-files=ikona.ico=ikona.ico --include-data-files=pozadi.jpg=pozadi.jpg --include-data-files=doom.wav=doom.wav --output-dir=Build_Ligo Ligo.py
