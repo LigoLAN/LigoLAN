@@ -23,6 +23,13 @@ Install, run, and play. LigoLAN handles the rest.
 
 > **⚠️ Security Warning:** The program automatically opens ports `12345`, `12346`, and `12347` for local communication. We recommend using it primarily on a trusted home / private network.
 
+## 💻 Technology Under the Hood
+LigoLAN is written entirely in Python with a focus on asynchronous network communication and stability:
+*   **GUI:** `customtkinter` (modern and responsive interface), `tkinterdnd2` (Drag & Drop support).
+*   **Networking:** Native `socket` library (TCP for files, UDP for radar and chat).
+*   **Audio:** `PyAudio` for low-latency voice transmission over LAN.
+*   **Compilation:** The source code is compiled via **Nuitka** for maximum speed and packaged into a professional installer using Inno Setup.
+
 ## 🤝 Support the Author
 If this tool saved your LAN party or your sanity, I'd highly appreciate any support for further development! 🍻
 
