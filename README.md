@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-<!--
 # 🚀 LigoLAN
 **Your personal network admin for hassle-free LAN gaming.**
 
