@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 <!--
-**NexusLAN/NexusLAN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**LigoLAN/LigoLAN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
@@ -13,12 +13,12 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
---># 🚀 NexusLAN v1.0
+--># 🚀 LigoLAN v1.0
 **Your personal network admin for hassle-free LAN gaming.**
 
 Created by a gamer for gamers. NexusLAN is an open-source tool designed to eliminate all the frustration associated with setting up a local area network (LAN). No more wasted hours resolving IP address conflicts, manually poking holes in the Windows Firewall, or searching for a free USB flash drive to transfer files.
 
-Install, run, and play. Nexus handles the rest.
+Install, run, and play. LigoLAN handles the rest.
 
 ---
 
@@ -36,7 +36,7 @@ Install, run, and play. Nexus handles the rest.
 
 1. Go to the [Releases](../../releases/latest) section and download the latest `NexusLAN_Setup.exe` installer.
 2. Install the program (Windows 10 / 11 required).
-3. Run **NexusLAN**. During the initial network setup, the program will request **administrator rights** (UAC) – this is necessary to modify IP addresses and the Firewall.
+3. Run **LigoLAN**. During the initial network setup, the program will request **administrator rights** (UAC) – this is necessary to modify IP addresses and the Firewall.
 4. *Security Warning:* The program automatically opens ports `12345`, `12346`, and `12347` for local communication. We recommend using it primarily on a trusted home / private network.
 
 ---
