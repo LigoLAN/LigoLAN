@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 --># 🚀 NexusLAN v1.0
-**The definitive Swiss Army knife for every LAN party.**
+**Your personal network admin for hassle-free LAN gaming.**
 
 Created by a gamer for gamers. NexusLAN is an open-source tool designed to eliminate all the frustration associated with setting up a local area network (LAN). No more wasted hours resolving IP address conflicts, manually poking holes in the Windows Firewall, or searching for a free USB flash drive to transfer files.
 
