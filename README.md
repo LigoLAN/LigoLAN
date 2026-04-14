@@ -8,7 +8,9 @@ Created by a gamer for gamers. LigoLAN is a free tool designed to eliminate all 
 
 Install, run, and play. LigoLAN handles the rest.
 
-*(SEM MYŠÍ PŘETÁHNI FOTKU HLAVNÍHO RADARU)*
+
+<img width="1019" height="1040" alt="1" src="https://github.com/user-attachments/assets/300179f7-05c6-450d-8310-05baf4aaa042" />
+
 
 ### ✨ What's New in Version 1.1 (Massive Visual & UI Update)
 For version 1.1, I focused heavily on a complete visual overhaul and code refactoring.
@@ -31,7 +33,8 @@ For version 1.1, I focused heavily on a complete visual overhaul and code refact
 
 > **⚠️ Security Warning:** The program automatically opens ports `12345`, `12346`, and `12347` for local communication. External access is strictly blocked to everything except your shared folder, but we still recommend using it primarily on a trusted home/private network.
 
-*(SEM MYŠÍ PŘETÁHNI FOTKU SDÍLENÉ SLOŽKY A ZÁLOŽKY HER)*
+<img width="1019" height="1040" alt="2" src="https://github.com/user-attachments/assets/cd121729-103c-4599-a7ea-99cc826fde2f" />
+
 
 ### 💻 Technology Under the Hood
 LigoLAN is written entirely in Python with a focus on asynchronous network communication and stability:
@@ -52,9 +55,9 @@ LigoLAN is written entirely in Python with a focus on asynchronous network commu
 If this tool saved your LAN party or your sanity, I'd highly appreciate any support for further development.
 
 * ☕ **Ko-fi:** [Support via Ko-fi (Card / PayPal)](https://ko-fi.com/goodgames88)
-* 🪙 **BTC:** `bc1qw8utm3daspa5qvnnxc8eznvdtc7xpa8stjndp5`
-* 🪙 **ETH:** `0x7E453349678ea7e164c2A2e78D2590815F7FB9c8`
-* 🪙 **LTC:** `LRaTRP4sGGJQXJ1CZpkjovpYNRHZCZFoUq`
+* **BTC:** `bc1qw8utm3daspa5qvnnxc8eznvdtc7xpa8stjndp5`
+* **ETH:** `0x7E453349678ea7e164c2A2e78D2590815F7FB9c8`
+* **LTC:** `LRaTRP4sGGJQXJ1CZpkjovpYNRHZCZFoUq`
 
 ### 👨‍💻 Author & Contacts
 **Radek Straka**
@@ -65,4 +68,8 @@ This software is provided free of charge "as is", without any warranties. The au
 
 **🔨 For Developers (How to compile):** To create a standalone, super-fast `.exe` file from this source code via Nuitka, use the following terminal command:
 ```bash
-python -m nuitka --standalone --windows-console-mode=disable --plugin-enable=tk-inter --lto=yes --include-package=tkinterdnd2 --windows-icon-from-ico=icons\ikona.ico --include-data-dir=icons=icons --output-dir=Build_Ligo Ligo.py
+python -m nuitka --standalone --windows-console-mode=disable --plugin-enable=tk-inter --lto=yes --include-package=tkinterdnd2 --windows-icon-from-ico=icons\ikona.ico --include-data-dir=icons=icons --output-dir=Build_Ligo Ligo.pypython -m nuitka --standalone --windows-console-mode=disable --plugin-enable=tk-inter --lto=yes --include-package=tkinterdnd2 --windows-icon-from-ico=icons\ikona.ico --include-data-dir=icons=icons --output-dir=Build_Ligo Ligo.py
+```
+<img width="1019" height="1040" alt="3" src="https://github.com/user-attachments/assets/5e0cceb9-94e2-4d4c-bc99-d5d876749dab" />
+
+<img width="1019" height="1040" alt="4" src="https://github.com/user-attachments/assets/cea94fd9-22c5-406b-bf47-d55be6e384fb" />
